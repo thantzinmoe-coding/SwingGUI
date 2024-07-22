@@ -22,7 +22,6 @@ public class PasswordHasher {
         return salt;
     }
 
-    // Method to hash a password with a salt
 //    public static String hashPassword(String password, byte[] salt) throws NoSuchAlgorithmException {
 //        MessageDigest md = MessageDigest.getInstance("SHA-256");
 //        md.update(salt);

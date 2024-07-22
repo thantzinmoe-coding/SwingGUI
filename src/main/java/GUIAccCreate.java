@@ -72,7 +72,7 @@ public class GUIAccCreate {
                 String SaltBase64 = Base64.getEncoder().encodeToString(salt);
                 UserModel userModel = new UserModel();
                 try {
-                    hashedPassword = PasswordHasher.hashPassword(String.valueOf(Pass), salt);
+                    hashedPassword = PasswordHasher.hashPassword(String.valueOf(Pass.getText()), salt);
                 } catch (NoSuchAlgorithmException e)
                 {
                     e.printStackTrace();
